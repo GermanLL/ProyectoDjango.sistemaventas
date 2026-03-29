@@ -3,13 +3,13 @@
 This project is a sales management system featuring a Django backend (REST API) and a Vue.js frontend (User Interface). It enables the administration of products and categories with dynamic data visualization.
 
 ## 🚀 Technologies Used
-Backend: Python, Django, Django REST Framework (DRF).
+- Backend: Python, Django, Django REST Framework (DRF).
 
-Frontend: Vue.js 3, Axios, Bootstrap 5.
+- Frontend: Vue.js 3, Axios, Bootstrap 5.
 
-Database: PostgreSQL 
+- Database: PostgreSQL 
 
-Others: Django-cors-headers, Django-filter.
+- Others: Django-cors-headers, Django-filter.
 
 [![Proyecto-Django.jpg](https://i.postimg.cc/y8b7jrXn/Proyecto-Django.jpg)](https://postimg.cc/pmKNXCSn)
 
