@@ -17,7 +17,7 @@ Others: Django-cors-headers, Django-filter.
 ## 🛠️ Project Development Stages
 The development was carried out following these main phases:
 
-# Backend Configuration:
+- # Backend Configuration:
 
 - Virtual environment creation and activation: python -m venv venv.
 
@@ -25,7 +25,7 @@ The development was carried out following these main phases:
 
 - Definition of Data Models (Products, Categories) and Serializers to convert data into JSON.
 
-# API Architecture:
+- # API Architecture:
 
 - Implementation of Class-Based Views (Generics) and ViewSets.
 
@@ -33,7 +33,7 @@ The development was carried out following these main phases:
 
 - CORS enablement to allow connection with the Vue frontend.
 
-## Frontend Development (Vue.js):
+- # Frontend Development (Vue.js):
 
 - Vue CLI installation and app initialization.
 
@@ -50,25 +50,25 @@ git clone https://github.com/GermanLL/ProyectoDjango.sistemaventas.git
 cd ProyectoDjango.sistemaventas
 2. Backend Setup (Django)
 Bash
-# Enter the server folder (adjust according to your structure)
+- # Enter the server folder (adjust according to your structure)
 cd tienda 
 
-# Create and activate the virtual environment
+- # Create and activate the virtual environment
 python -m venv venv
-# On Windows:
+- # On Windows:
 venv\Scripts\activate
 
-# Install dependencies
+- # Install dependencies
 pip install django djangorestframework django-filter django-cors-headers
 
-# Run migrations
+- # Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# Create a superuser for the admin panel
+- # Create a superuser for the admin panel
 python manage.py createsuperuser
 
-# Start the server
+- # Start the server
 python manage.py runserver
 The backend will be available at: http://localhost:8000/
 
@@ -76,17 +76,17 @@ The backend will be available at: http://localhost:8000/
 Note: Ensure you have Node.js installed.
 
 Bash
-# Open a new terminal and enter the Vue project folder
+- # Open a new terminal and enter the Vue project folder
 cd cliente_vue (or your frontend folder name)
 
-# Install npm dependencies
+- # Install npm dependencies
 npm install
 
-# Run the project
+- # Run the project
 npm run serve
 The frontend will be available at: http://localhost:8080/
 
-# 🔑 Access Credentials (Development Mode)
+- # 🔑 Access Credentials (Development Mode)
 Django Admin: http://localhost:8000/admin
 
 
