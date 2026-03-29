@@ -1,8 +1,5 @@
 <h1>Sales Management System (Django REST Framework + Vue.js)</h1>
 
-[![Proyecto-Django.jpg](https://i.postimg.cc/y8b7jrXn/Proyecto-Django.jpg)](https://postimg.cc/pmKNXCSn)
-
-
 This project is a sales management system featuring a Django backend (REST API) and a Vue.js frontend (User Interface). It enables the administration of products and categories with dynamic data visualization.
 
 ## 🚀 Technologies Used
@@ -13,6 +10,8 @@ Frontend: Vue.js 3, Axios, Bootstrap 5.
 Database: PostgreSQL 
 
 Others: Django-cors-headers, Django-filter.
+
+[![Proyecto-Django.jpg](https://i.postimg.cc/y8b7jrXn/Proyecto-Django.jpg)](https://postimg.cc/pmKNXCSn)
 
 ## 🛠️ Project Development Stages
 The development was carried out following these main phases:
