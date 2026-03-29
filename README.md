@@ -35,7 +35,7 @@ The development was carried out following these main phases:
 
 - # Frontend Development (Vue.js):
 
-- Vue CLI installation and app initialization.
+ Vue CLI installation and app initialization.
 
 Implementation of Axios within the onMounted hook to fetch data from the Django API.
 
@@ -86,7 +86,7 @@ npm install
 npm run serve
 The frontend will be available at: http://localhost:8080/
 
-- # 🔑 Access Credentials (Development Mode)
+ # 🔑 Access Credentials (Development Mode)
 Django Admin: http://localhost:8000/admin
 
 
