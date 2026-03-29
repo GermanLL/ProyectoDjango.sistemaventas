@@ -17,7 +17,7 @@ Others: Django-cors-headers, Django-filter.
 ## 🛠️ Project Development Stages
 The development was carried out following these main phases:
 
-- # Backend Configuration:
+- ## Backend Configuration:
 
 - Virtual environment creation and activation: python -m venv venv.
 
@@ -25,7 +25,7 @@ The development was carried out following these main phases:
 
 - Definition of Data Models (Products, Categories) and Serializers to convert data into JSON.
 
-- # API Architecture:
+- ## API Architecture:
 
 - Implementation of Class-Based Views (Generics) and ViewSets.
 
@@ -33,7 +33,7 @@ The development was carried out following these main phases:
 
 - CORS enablement to allow connection with the Vue frontend.
 
-- # Frontend Development (Vue.js):
+- ## Frontend Development (Vue.js):
 
  Vue CLI installation and app initialization.
 
@@ -41,7 +41,7 @@ Implementation of Axios within the onMounted hook to fetch data from the Django 
 
 Creation of reactive components (Navbar, Product Cards) and state management using ref and computed.
 
-# 💻 Local Installation and Setup 
+## 💻 Local Installation and Setup 
 Follow these steps to run the project on your local machine:
 
 1. Clone the Repository
@@ -50,10 +50,10 @@ git clone https://github.com/GermanLL/ProyectoDjango.sistemaventas.git
 cd ProyectoDjango.sistemaventas
 2. Backend Setup (Django)
 Bash
-- # Enter the server folder (adjust according to your structure)
+- ## Enter the server folder (adjust according to your structure)
 cd tienda 
 
-- # Create and activate the virtual environment
+- ## Create and activate the virtual environment
 python -m venv venv
 - On Windows:
 venv\Scripts\activate
@@ -86,7 +86,7 @@ npm install
 npm run serve
 The frontend will be available at: http://localhost:8080/
 
- # 🔑 Access Credentials (Development Mode)
+ ## 🔑 Access Credentials (Development Mode)
 Django Admin: http://localhost:8000/admin
 
 
