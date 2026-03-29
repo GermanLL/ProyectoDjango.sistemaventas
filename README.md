@@ -5,7 +5,7 @@
 
 This project is a sales management system featuring a Django backend (REST API) and a Vue.js frontend (User Interface). It enables the administration of products and categories with dynamic data visualization.
 
-# 🚀 Technologies Used
+## 🚀 Technologies Used
 Backend: Python, Django, Django REST Framework (DRF).
 
 Frontend: Vue.js 3, Axios, Bootstrap 5.
@@ -55,20 +55,20 @@ cd tienda
 
 - # Create and activate the virtual environment
 python -m venv venv
-- # On Windows:
+- On Windows:
 venv\Scripts\activate
 
-- # Install dependencies
+-  Install dependencies
 pip install django djangorestframework django-filter django-cors-headers
 
-- # Run migrations
+- Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-- # Create a superuser for the admin panel
+- Create a superuser for the admin panel
 python manage.py createsuperuser
 
-- # Start the server
+- Start the server
 python manage.py runserver
 The backend will be available at: http://localhost:8000/
 
@@ -76,13 +76,13 @@ The backend will be available at: http://localhost:8000/
 Note: Ensure you have Node.js installed.
 
 Bash
-- # Open a new terminal and enter the Vue project folder
+-  Open a new terminal and enter the Vue project folder
 cd cliente_vue (or your frontend folder name)
 
-- # Install npm dependencies
+-  Install npm dependencies
 npm install
 
-- # Run the project
+-  Run the project
 npm run serve
 The frontend will be available at: http://localhost:8080/
 
